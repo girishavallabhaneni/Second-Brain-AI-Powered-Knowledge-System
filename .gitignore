@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+.next/
+out/
+build/
+dist/
+
+# Environment — NEVER commit this
+.env
+.env.local
+.env.*.local
+
+# Prisma
+prisma/generated/
+
+# Misc
+.DS_Store
+*.pem
+.vercel
+*.log
