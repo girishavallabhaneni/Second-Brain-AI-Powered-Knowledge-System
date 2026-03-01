@@ -1,0 +1,49 @@
+// prisma/schema.prisma
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["postgresqlExtensions"]
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  directUrl         = env("DATABASE_URL")
+  extensions        = [vector]
+}
+
+model User {
+  id        String          @id @default(cuid())
+  email     String          @unique
+  name      String
+  password  String
+  createdAt DateTime        @default(now())
+  items     KnowledgeItem[]
+
+  @@map("users")
+}
+
+model KnowledgeItem {
+  id          String                      @id @default(cuid())
+  title       String
+  content     String
+  type        ItemType                    @default(NOTE)
+  sourceUrl   String?
+  tags        String[]                    @default([])
+  summary     String?
+  embedding   Unsupported("vector(768)")?
+  fileUrl     String?
+  fileName    String?
+  fileType    String?
+  userId      String?
+  user        User?                       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt   DateTime                    @default(now())
+  updatedAt   DateTime                    @updatedAt
+
+  @@map("knowledge_items")
+}
+
+enum ItemType {
+  NOTE
+  LINK
+  INSIGHT
+}
