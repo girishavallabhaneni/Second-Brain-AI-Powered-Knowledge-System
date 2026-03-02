@@ -4,7 +4,7 @@
 
 A full-stack AI knowledge management system that captures, organizes, and intelligently surfaces your knowledge. Built with Next.js, PostgreSQL, and Google Gemini AI (free).
 
-**[Live Demo →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/)** | **[Docs →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/docs)**
+**[Live Demo →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/)** | **[Docs →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/docs)** | ** [register →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/register)** 
 
 ---
 
