@@ -4,7 +4,7 @@
 
 A full-stack AI knowledge management system that captures, organizes, and intelligently surfaces your knowledge. Built with Next.js, PostgreSQL, and Google Gemini AI (free).
 
-**[Live Demo →](https://your-app.vercel.app)** | **[Docs →](https://your-app.vercel.app/docs)**
+**[Live Demo →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/)** | **[Docs →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/docs)**
 
 ---
 
@@ -45,8 +45,8 @@ A full-stack AI knowledge management system that captures, organizes, and intell
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/second-brain.git
-cd second-brain
+git clone https://github.com/girishavallabhaneni/Second-Brain-AI-Powered-Knowledge-System.git
+cd Second-Brain-AI-Powered-Knowledge-System
 ```
 
 ### 2. Install dependencies
@@ -64,9 +64,9 @@ cp .env.example .env.local
 Edit `.env.local` and fill in:
 
 ```env
-DATABASE_URL="your-postgresql-connection-string"
-GEMINI_API_KEY="your-gemini-api-key"
-JWT_SECRET="your-random-secret-string"
+DATABASE_URL="postgresql://neondb_owner:npg_U95tKHPqflxI@ep-empty-bar-ai3zd77y-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+GEMINI_API_KEY="AIzaSyDr75AqXRIQq7-_iuq_P6K7g4B2UWQ8Gks"
+JWT_SECRET="ccfe26e6533ae52b0912d2211bde9f9de25eb005d4b4a939adad1bb213649bba"
 ```
 
 **Getting DATABASE_URL:**
@@ -93,8 +93,6 @@ This creates all tables in your PostgreSQL database automatically.
 ```bash
 npm run dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000)
 
 ---
 
@@ -169,7 +167,7 @@ second-brain/
 
 ## 🏛️ Architecture Decisions
 
-See [/docs](https://your-app.vercel.app/docs) for full architecture documentation, including:
+See [/docs](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/docs) for full architecture documentation, including:
 - Portable architecture with swappable components
 - 5 UX principles guiding AI interaction design
 - Agent automation pipeline
