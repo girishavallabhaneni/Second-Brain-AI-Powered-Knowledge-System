@@ -48,6 +48,10 @@ A full-stack AI knowledge management system that captures, organizes, and intell
 git clone https://github.com/girishavallabhaneni/Second-Brain-AI-Powered-Knowledge-System.git
 cd Second-Brain-AI-Powered-Knowledge-System
 ```
+### screenshots
+<img width="1898" height="905" alt="Screenshot 2026-03-02 145042" src="https://github.com/user-attachments/assets/e472684c-98c8-42b2-a761-55a64b050bd8" />
+<img width="1895" height="898" alt="Screenshot 2026-03-02 145115" src="https://github.com/user-attachments/assets/e52b6483-963a-4ce0-acbe-5f078ff2024c" />
+```
 
 ### 2. Install dependencies
 
