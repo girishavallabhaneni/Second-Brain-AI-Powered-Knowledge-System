@@ -167,7 +167,7 @@ second-brain/
 
 ## 🏛️ Architecture Decisions
 
-See [/docs](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/docs) for full architecture documentation, including:
+See [/docs](https://second-brain-ai-powered-knowledge-s.vercel.app/docs) for full architecture documentation, including:
 - Portable architecture with swappable components
 - 5 UX principles guiding AI interaction design
 - Agent automation pipeline
