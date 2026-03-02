@@ -4,7 +4,7 @@
 
 A full-stack AI knowledge management system that captures, organizes, and intelligently surfaces your knowledge. Built with Next.js, PostgreSQL, and Google Gemini AI (free).
 
-**[Live Demo →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/)** | **[Docs →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/docs)** | ** [register →](https://second-brain-ai-powered-knowledge-s-tawny.vercel.app/register)** 
+**[Live Demo →](https://second-brain-ai-powered-knowledge-s.vercel.app/)** | **[Docs →](https://second-brain-ai-powered-knowledge-s.vercel.app/docs)** | ** [register →](https://second-brain-ai-powered-knowledge-s.vercel.app/register)** 
 
 ---
 
@@ -64,9 +64,9 @@ cp .env.example .env.local
 Edit `.env.local` and fill in:
 
 ```env
-DATABASE_URL="postgresql://neondb_owner:npg_U95tKHPqflxI@ep-empty-bar-ai3zd77y-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
-GEMINI_API_KEY="AIzaSyDr75AqXRIQq7-_iuq_P6K7g4B2UWQ8Gks"
-JWT_SECRET="ccfe26e6533ae52b0912d2211bde9f9de25eb005d4b4a939adad1bb213649bba"
+DATABASE_URL="your-postgresql-connection-string"
+GEMINI_API_KEY="your-gemini-api-key"
+JWT_SECRET="your-random-secret-string"
 ```
 
 **Getting DATABASE_URL:**
